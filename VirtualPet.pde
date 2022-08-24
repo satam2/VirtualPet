@@ -42,14 +42,23 @@ void draw(){
   ellipse(399,195,25,25);
   ellipse(240,325,75,75);
   ellipse(170,135,25,25);
-  ellipse(287,443,25,25); // << start working from here
-  ellipse(70,400,50,50);
-  ellipse(415,380,75,75);
+  ellipse(293,430,25,25);
+  ellipse(70,410,30,30); 
+  ellipse(380,365,55,55);
   fill(70,170,80); // green
-  ellipse(500,230,50,50);
-  ellipse(55,480,20,20);
+  ellipse(485,230,40,40);
+  ellipse(55,490,20,20);
   
   fill(28,28,28);
   ellipse(313,158,25,25);
+  ellipse(70,260,17,17);
+  ellipse(399,195,13,13);
+  ellipse(240,325,37,37);
+  ellipse(170,135,13,13);
+  ellipse(293,430,13,13);
+  ellipse(70,410,15,15); 
+  ellipse(380,365,27,27);
+  ellipse(485,230,20,20);
+  ellipse(55,490,10,10);
   
 }
