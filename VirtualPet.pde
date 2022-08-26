@@ -1,15 +1,13 @@
 void setup(){
   size(500,500);
   background(112,112,112);
+  textAlign(CENTER);
+  textSize(60);
 }
 
 void draw(){
-  int x = mouseX;
-  int y = mouseY;
-    if(mousePressed == true){
-      System.out.println("("+x+" ,"+y+")");
-    }
-    
+  fill(255,0,0);
+  text("C O N S U M E.", 250,50);  
   // lump
   noStroke();
   fill(138,3,3);
@@ -22,7 +20,16 @@ void draw(){
   ellipse(320,160,150,150);
   ellipse(415,400,150,150);
   ellipse(191,145,100,100);
+  
+  noFill();
+  strokeWeight(5);
+  stroke(138,3,3);
+  ellipse(100,215,100,100);
+  ellipse(270,110,50,50);
+  ellipse(230,440,150,50);
+  
   // eyes
+  noStroke();
   fill(245,237,237);
   ellipse(300,170,100,100);
   ellipse(60,260,75,75);
@@ -60,5 +67,4 @@ void draw(){
   ellipse(380,365,27,27);
   ellipse(485,230,20,20);
   ellipse(55,490,10,10);
-  
 }
